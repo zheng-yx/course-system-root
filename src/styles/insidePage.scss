@@ -1,0 +1,90 @@
+.insidePagePre {
+    background-color: white;
+    border: 0;
+    padding: 0;
+    white-space: pre-line;
+  }
+  .pagination {
+    position: absolute;
+    bottom: -1%;
+  }
+  .fontStyle {
+      font: 12px "\5FAE\8F6F\96C5\9ED1";
+      display: block;
+      border-bottom: 1px solid #E5E5E5;
+      margin-top: 5px;
+  }
+  .left {
+    width: 20%;
+    height: 80%;
+    float: left;
+    border-top: 1px solid #cecece;
+    background: #E5E5E5;
+    margin: 0;
+  }
+  .right {
+    width: 79%;
+    height: 80%;
+    float: left;
+  }
+  /* 左侧菜单 */
+  .div_menu {
+    border-bottom: 1px solid #cecece;
+    height: 59px;
+    width: 100%;
+    color: #9c2626;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font: 16px "微软雅黑";
+    cursor: pointer;
+  }
+  /* 点击效果 */
+  .div_menu_click {
+    background-color: #9e2626;
+    color: #dedede;
+  }
+  /* 标题列表div */
+  .news_title {
+    text-align-last: left;
+    position: relative;
+    height: 25px;
+    text-decoration: none;
+    /* border-bottom: #323232 1px solid; */
+  }
+  .news_time {
+    position: absolute;
+    /* top: 0px; */
+    right: 10px;
+  }
+  * {
+    padding: 0px;
+    margin: 0px;
+  }
+  .addButton {
+    float: right;
+    margin-right: 3%;
+    margin-top: -3px;
+    position: fixed;
+    top: 30%;
+    right: 2%;
+    padding: 7px 10px !important;
+  }
+  .switchButton {
+    float: right;
+    margin-right: 3%;
+    margin-top: -3px;
+    position: fixed;
+    top: 25%;
+    right: 2%;
+    padding: 7px 10px !important;
+  }
+  .editButton {
+    padding: 5px !important;
+    margin-right: 5px !important;
+    margin-left: 0 !important;
+  }
+  .videoButton {
+    margin-left: 0 !important;
+  }
